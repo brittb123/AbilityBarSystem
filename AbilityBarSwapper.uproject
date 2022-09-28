@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{B8BE48D0-4C1A-6F67-CA1C-78B6C58C2144}",
+	"EngineAssociation": "{1A423CEA-4DA6-567A-0C48-1691F688C776}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "AbilityBarSwapper",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
